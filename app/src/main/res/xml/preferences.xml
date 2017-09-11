@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="key"
+        android:title="title"
+        android:summary="summary"
+        android:dialogTitle="dialogTitle"
+        android:entries="@array/pref_list_entries"
+        android:entryValues="@array/pref_list_entry_values"/>
+    <CheckBoxPreference
+        android:key="key2"
+        android:title="title2"
+        android:summary="summary2" />
+    <SwitchPreference
+        android:key="key3"
+        android:title="title3"
+        android:summary="summary3"
+        android:switchTextOff="NO"
+        android:switchTextOn="YES"/>
+    <MultiSelectListPreference
+        android:key="multi"
+        android:title="title4"
+        android:summary="summary4"
+        android:dialogTitle="dialogTitle"
+        android:entries="@array/pref_list_entries"
+        android:entryValues="@array/pref_list_entry_values"/>
+    <EditTextPreference
+        android:key="textbox1"
+        android:summary="summary5"
+        android:title="summary5"
+        android:inputType="text"
+        android:maxLength="5">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="textbox2"
+        android:summary="summary6"
+        android:title="summary6"
+        android:inputType="number"
+        android:maxLength="5">
+    </EditTextPreference>
+
+</PreferenceScreen>
